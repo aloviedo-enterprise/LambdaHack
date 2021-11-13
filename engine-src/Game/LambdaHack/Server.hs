@@ -10,7 +10,7 @@ module Game.LambdaHack.Server
   , ChanServer (..)
     -- * Re-exported from "Game.LambdaHack.Server.Commandline"
   , serverOptionsPI
-    -- * Re-exported from "Game.LambdaHack.Server.ServerOptions"
+    -- * Re-exported from "Game.LambdaHack.Server.ServerOptions" test
   , ServerOptions(..)
   ) where
 
