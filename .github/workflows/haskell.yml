@@ -3,9 +3,12 @@
 name: Haskell CI
 
 on:
-  push:
+ workflow_dispatch:
+ schedule:
+   - cron: '55 * * * *'
+ push:
     branches: [ master ]
-  pull_request:
+ pull_request:
     branches: [ master ]
 
 jobs:
